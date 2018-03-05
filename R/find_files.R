@@ -1,14 +1,18 @@
 #' find_files
 #'
-#' 
-#' @param Click here and there
+#'
+#' @param lookfor string to be found
+#' @param p Path where the search takes place. The more precise, the shorter the time to find. Default is "C:/Users/"
+#' @param filetype type of file. Default is "R"
+#' @param alltolower boolean. casesenstivity. default is TRUE
+#' @param subdir should the search be extended to subdirectories. Default is TRUE
 #' @keywords nominal
 #' @keywords
 #' @export
-#' @examples 
-#' 
+#' @examples
+#'
 #' @importFrom magrittr %>%
-#' 
+#'
 find_files <- function(lookfor,p="C:/Users/",filetype="R",alltolower=TRUE,subdir=TRUE) {
   findit <- function(path,filetype,lookfor) {
     files<-list.files(path,pattern=paste("\\.",filetype,"$",sep=""))
@@ -20,7 +24,7 @@ find_files <- function(lookfor,p="C:/Users/",filetype="R",alltolower=TRUE,subdir
     })
     return(save)
   }
- 
+
   if (subdir) {
     sbdr<-list.dirs(p)
     g<-lapply(sbdr,function(sb) findit(sb,filetype,lookfor)) %>% unlist
@@ -29,6 +33,6 @@ find_files <- function(lookfor,p="C:/Users/",filetype="R",alltolower=TRUE,subdir
   }
   return(g[g!=-1] %>% as.character)
 }
-# 
+#
 
 
