@@ -7,13 +7,10 @@
 read_csv_timestamp(filepath, filename)
 }
 \arguments{
-\item{Click}{here and there}
+\item{filepath}{path to file}
+
+\item{filename}{name of the file}
 }
 \description{
-check ordinal if they are ordinal
+read_csv_timestamp function
 }
-\examples{
-get.1.sub(data,split,cols,whichcol,replace)
-
-}
-\keyword{ordinal}

@@ -8,7 +8,15 @@ find_files(lookfor, p = "C:/Users/", filetype = "R", alltolower = TRUE,
   subdir = TRUE)
 }
 \arguments{
-\item{Click}{here and there}
+\item{lookfor}{string to be found}
+
+\item{p}{Path where the search takes place. The more precise, the shorter the time to find. Default is "C:/Users/"}
+
+\item{filetype}{type of file. Default is "R"}
+
+\item{alltolower}{boolean. casesenstivity. default is TRUE}
+
+\item{subdir}{should the search be extended to subdirectories. Default is TRUE}
 }
 \description{
 find_files
@@ -16,4 +24,3 @@ find_files
 \examples{
 
 }
-\keyword{nominal}

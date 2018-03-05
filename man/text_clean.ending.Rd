@@ -7,12 +7,8 @@
 text_clean.ending(strng)
 }
 \arguments{
-\item{Click}{here and there}
+\item{strng}{It's a string}
 }
 \description{
-check nominal if they are nominal
+text_clean.ending
 }
-\examples{
-checking.nominal()
-}
-\keyword{nominal}

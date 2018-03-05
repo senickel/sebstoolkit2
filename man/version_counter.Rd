@@ -7,14 +7,17 @@
 version_counter(filepath, filename, filetype = ".Rmd", increaseversion = 1)
 }
 \arguments{
-\item{Click}{here and there}
+\item{filepath}{path to file}
+
+\item{filename}{name to file}
+
+\item{filetype}{type of fileending. Default is ".Rmd"}
+
+\item{increaseversion}{by which number should the version counter be increased? Default is 1.}
 }
 \description{
 check ordinal if they are ordinal
 }
 \examples{
-get.1.sub(data,split,cols,whichcol,replace)
-
 
 }
-\keyword{ordinal}

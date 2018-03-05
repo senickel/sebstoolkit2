@@ -7,13 +7,10 @@
 read_csv_version(filepath, filename)
 }
 \arguments{
-\item{Click}{here and there}
+\item{filepath}{path to file}
+
+\item{filename}{name of file}
 }
 \description{
-check ordinal if they are ordinal
+Reads versioned file. Corresponding to write_csv_version
 }
-\examples{
-get.1.sub(data,split,cols,whichcol,replace)
-
-}
-\keyword{ordinal}

@@ -12,7 +12,4 @@ write_csv_timestamp(data, filepath, filename)
 \description{
 check ordinal if they are ordinal
 }
-\examples{
-get.1.sub(data,split,cols,whichcol,replace)
-}
 \keyword{ordinal}
