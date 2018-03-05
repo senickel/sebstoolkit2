@@ -6,7 +6,7 @@
 #' @keywords
 #' @export
 #' @examples
-#' get.1.sub(data,split,cols,whichcol,replace)
+#' @importFrom data.table fwrite
 
 write_csv_version<-function(data,filepath,filename) {
   library(data.table)
