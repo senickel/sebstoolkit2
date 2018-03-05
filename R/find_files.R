@@ -6,8 +6,6 @@
 #' @param filetype type of file. Default is "R"
 #' @param alltolower boolean. casesenstivity. default is TRUE
 #' @param subdir should the search be extended to subdirectories. Default is TRUE
-#' @keywords nominal
-#' @keywords
 #' @export
 #' @examples
 #'
