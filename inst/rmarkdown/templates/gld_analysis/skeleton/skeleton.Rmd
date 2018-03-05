@@ -1,0 +1,18 @@
+---
+title: "Untitled"
+author: "Sebastian Nickel"
+date: "`r Sys.setlocale('LC_ALL','English'); format(Sys.time(), '%B %d, %Y')`"
+output:
+  pdf_document:
+    fig_caption: TRUE
+    keep_tex: true
+    includes:
+      in_header: header.tex
+---
+\newcommand{\reff}[1]{Figure \ref{#1}}
+\newcommand{\reft}[1]{Table \ref{#1}}
+
+# Annex
+```{r sessinfo}
+sessionInfo()
+```
