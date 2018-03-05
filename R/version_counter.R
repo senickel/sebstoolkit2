@@ -1,13 +1,13 @@
 #' version_counter function
 #'
 #' check ordinal if they are ordinal
-#' @param Click here and there
-#' @keywords ordinal
+#' @param filepath path to file
+#' @param filename name to file
+#' @param filetype type of fileending. Default is ".Rmd"
+#' @param increaseversion by which number should the version counter be increased? Default is 1.
 #' @keywords
 #' @export
 #' @examples
-#' get.1.sub(data,split,cols,whichcol,replace)
-#'
 #'
 version_counter<-function(filepath,filename,filetype=".Rmd",increaseversion=1) {
   library(dplyr)
