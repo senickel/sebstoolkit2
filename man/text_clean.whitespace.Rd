@@ -7,12 +7,13 @@
 text_clean.whitespace(vec)
 }
 \arguments{
-\item{Click}{here and there}
+\item{vec}{character string or vector of character strings}
 }
 \description{
-check nominal if they are nominal
+Cleans double whitespaces and whitespace at the beginning or end of string.
 }
 \examples{
-checking.nominal()
+test<-c("te    st"," test ")
+test
+text_clean.whitespace(test)
 }
-\keyword{nominal}
