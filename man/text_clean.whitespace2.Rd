@@ -15,4 +15,3 @@ check nominal if they are nominal
 \examples{
 checking.nominal()
 }
-\keyword{nominal}
