@@ -19,5 +19,3 @@ text_clean.whitespace<-function(vec) {
   }) %>% unlist
   return(rt)
 }
-
-
