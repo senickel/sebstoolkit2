@@ -2,6 +2,7 @@
 #'
 #' check nominal if they are nominal
 #' @param Click here and there
+#' @export
 #' @examples
 #' checking.nominal()
 #' @importFrom magrittr %>%

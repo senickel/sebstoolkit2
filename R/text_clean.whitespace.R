@@ -2,6 +2,7 @@
 #'
 #' Cleans double whitespaces and whitespace at the beginning or end of string.
 #' @param vec character string or vector of character strings
+#' @export
 #' @examples
 #' test<-c("te    st"," test ")
 #' test
