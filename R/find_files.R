@@ -15,7 +15,7 @@ find_files <- function(lookfor,p="C:/Users/",filetype="R",alltolower=TRUE,subdir
   findit <- function(path,filetype,lookfor) {
     files<-list.files(path,pattern=paste("\\.",filetype,"$",sep=""))
     save<-sapply(files,function(f1) {
-      if (!as.logical(file.access(paste(path,f1,sep="/"),mode=4))) return(-1)
+      if (file.access(paste(path,f1,sep="/"),mode=4)==-1) return(-1)
       rl<-readLines(paste(path,f1,sep="/"),warn = FALSE)
       if (alltolower) rl<-rl %>% tolower
       c1<-gregexpr(lookfor,rl) %>% unlist
