@@ -5,7 +5,8 @@
 \title{random.colors}
 \usage{
 random.colors(nmbr, seed = 1337, exclude_color = "",
-  exclude.vector = NULL, distinctiveness = 60, removetoobright = TRUE)
+  exclude.vector = NULL, distinctiveness = 60,
+  removetoobright = TRUE)
 }
 \arguments{
 \item{Click}{here and there}

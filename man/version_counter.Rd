@@ -4,7 +4,8 @@
 \alias{version_counter}
 \title{version_counter function}
 \usage{
-version_counter(filepath, filename, filetype = ".Rmd", increaseversion = 1)
+version_counter(filepath, filename, filetype = ".Rmd",
+  increaseversion = 1)
 }
 \arguments{
 \item{filepath}{path to file}

@@ -4,8 +4,8 @@
 \alias{find_files}
 \title{find_files}
 \usage{
-find_files(lookfor, p = "C:/Users/", filetype = "R", alltolower = TRUE,
-  subdir = TRUE)
+find_files(lookfor, p = "C:/Users/", filetype = "R",
+  alltolower = TRUE, subdir = TRUE)
 }
 \arguments{
 \item{lookfor}{string to be found}
