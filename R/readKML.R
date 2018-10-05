@@ -48,7 +48,7 @@ readKML<-function(file,keep_name_description=FALSE,...) {
   if (keep_name_description) {
     sp_obj@data<-data
   } else {
-    sp_obj@data<-cbind(sp_obj@data,data)
+    try(sp_obj@data<-cbind(sp_obj@data,data),silent=TRUE)
   }
   sp_obj
 }
