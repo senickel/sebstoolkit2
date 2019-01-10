@@ -13,6 +13,7 @@
 #' @importFrom xml2 xml_find_all
 #' @importFrom xml2 xml_double
 #' @importFrom xml2 xml_text
+#' @importFrom xml2 xml_children
 #' @importFrom xml2 xml_find_first
 #' @importFrom rgdal readOGR
 
